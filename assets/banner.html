@@ -1,0 +1,39 @@
+<!doctype html><html><head><meta charset="utf-8"><style>
+*{margin:0;box-sizing:border-box}
+body{width:1280px;height:640px;background:#07070c;font-family:-apple-system,"SF Pro Display","Inter","Helvetica Neue",sans-serif;color:#f2f2f7;overflow:hidden;position:relative}
+.glow1{position:absolute;left:-160px;top:-120px;width:720px;height:720px;background:radial-gradient(circle,rgba(124,58,237,.38),transparent 65%)}
+.glow2{position:absolute;right:-140px;bottom:-200px;width:760px;height:760px;background:radial-gradient(circle,rgba(34,211,238,.26),transparent 65%)}
+.grid{position:absolute;inset:0;background-image:linear-gradient(rgba(255,255,255,.045) 1px,transparent 1px),linear-gradient(90deg,rgba(255,255,255,.045) 1px,transparent 1px);background-size:40px 40px;-webkit-mask-image:radial-gradient(ellipse at 50% 50%,#000 25%,transparent 78%)}
+.word{position:absolute;left:84px;top:150px}
+.tag{font-size:15px;letter-spacing:.28em;color:#a78bfa;text-transform:uppercase;font-family:"SF Mono",Menlo,monospace}
+h1{font-size:176px;font-weight:800;letter-spacing:-.06em;line-height:1;margin-top:10px;background:linear-gradient(100deg,#fff 20%,#c4b5fd 60%,#67e8f9);-webkit-background-clip:text;color:transparent}
+.sub{font-size:34px;color:#c9c9d6;margin-top:14px;font-weight:500;letter-spacing:-.01em}
+.sub b{color:#fff;font-weight:600}
+.pill{position:absolute;left:84px;bottom:64px;font-family:"SF Mono",Menlo,monospace;font-size:20px;color:#9ca3af;padding:12px 20px;border:1px solid rgba(255,255,255,.14);border-radius:12px;background:rgba(255,255,255,.04)}
+.pill span{color:#67e8f9}
+svg{position:absolute;right:0;top:0}
+</style></head><body>
+<div class="glow1"></div><div class="glow2"></div><div class="grid"></div>
+<svg width="640" height="640" viewBox="0 0 640 640">
+<defs><linearGradient id="g" x1="0" x2="1"><stop offset="0" stop-color="#7c3aed"/><stop offset="1" stop-color="#22d3ee"/></linearGradient>
+<filter id="b"><feGaussianBlur stdDeviation="9"/></filter></defs>
+<g filter="url(#b)" opacity=".55"><ellipse cx="90" cy="300" rx="70" ry="90" fill="#7c3aed"/><ellipse cx="60" cy="360" rx="50" ry="60" fill="#22d3ee"/><ellipse cx="130" cy="250" rx="45" ry="55" fill="#a78bfa"/></g>
+<g stroke="url(#g)" stroke-width="1.6" fill="none" opacity=".85">
+<path d="M130 255 C230 200 260 250 330 295"/><path d="M135 285 C230 270 260 290 330 305"/><path d="M135 320 C230 330 260 320 330 315"/><path d="M130 355 C230 390 260 345 330 325"/><path d="M110 385 C220 450 270 360 330 335"/></g>
+<g fill="#0e0e16" stroke="url(#g)" stroke-width="2"><circle cx="330" cy="315" r="9"/></g>
+<g transform="translate(360,185)">
+<rect width="230" height="270" rx="18" fill="#10101a" stroke="rgba(255,255,255,.16)"/>
+<rect x="0" y="0" width="230" height="6" rx="3" fill="url(#g)"/>
+<text x="22" y="42" fill="#9ca3af" font-family="Menlo,monospace" font-size="13" letter-spacing="2">BRIEF</text>
+<text x="22" y="76" fill="#fff" font-family="-apple-system,Helvetica" font-size="18" font-weight="600">Done when</text>
+<g font-family="-apple-system,Helvetica" font-size="15" fill="#d4d4e0">
+<circle cx="30" cy="108" r="9" fill="none" stroke="#22d3ee" stroke-width="2"/><path d="M26 108l3 3 6-7" stroke="#22d3ee" stroke-width="2" fill="none"/><rect x="50" y="102" width="150" height="9" rx="4.5" fill="#2a2a3a"/>
+<circle cx="30" cy="144" r="9" fill="none" stroke="#22d3ee" stroke-width="2"/><path d="M26 144l3 3 6-7" stroke="#22d3ee" stroke-width="2" fill="none"/><rect x="50" y="138" width="120" height="9" rx="4.5" fill="#2a2a3a"/>
+<circle cx="30" cy="180" r="9" fill="none" stroke="#22d3ee" stroke-width="2"/><path d="M26 180l3 3 6-7" stroke="#22d3ee" stroke-width="2" fill="none"/><rect x="50" y="174" width="160" height="9" rx="4.5" fill="#2a2a3a"/>
+<circle cx="30" cy="216" r="9" fill="none" stroke="#22d3ee" stroke-width="2"/><path d="M26 216l3 3 6-7" stroke="#22d3ee" stroke-width="2" fill="none"/><rect x="50" y="210" width="100" height="9" rx="4.5" fill="#2a2a3a"/></g>
+<text x="22" y="252" fill="#a78bfa" font-family="Menlo,monospace" font-size="12">First step → start</text></g>
+<text x="205" y="195" fill="#6b7280" font-family="Menlo,monospace" font-size="12" letter-spacing="2">5 QUESTIONS</text>
+</svg>
+<div class="word"><div class="tag">Claude Code skill</div><h1>scope</h1><div class="sub">From <b>vague wish</b> to <b>finished task.</b></div></div>
+<div class="pill"><span>&gt;</span> scope get ready for my midterms</div>
+</body></html>
